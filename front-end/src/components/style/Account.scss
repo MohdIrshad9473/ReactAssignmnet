@@ -1,0 +1,24 @@
+.table{
+    border:1px solid blue;  
+   .tableHeader{
+    display: flex;
+    padding: 2px;
+    background: blue;
+    .header-element{
+        flex:2;
+        color: aliceblue;
+    }
+   }
+    .tableBody{
+
+        .tableColunm{
+            display:flex;
+            .ColunmElement{
+               flex:1;
+            }
+        }
+    }
+
+}
+
+   

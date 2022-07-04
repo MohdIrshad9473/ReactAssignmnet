@@ -1,0 +1,18 @@
+.table {
+  border: 1px solid blue;
+}
+.table .tableHeader {
+  display: flex;
+  padding: 2px;
+  background: blue;
+}
+.table .tableHeader .header-element {
+  flex: 2;
+  color: aliceblue;
+}
+.table .tableBody .tableColunm {
+  display: flex;
+}
+.table .tableBody .tableColunm .ColunmElement {
+  flex: 1;
+}/*# sourceMappingURL=Account.css.map */

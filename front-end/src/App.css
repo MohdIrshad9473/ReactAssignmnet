@@ -1,0 +1,118 @@
+.nav-ul{
+  padding: 5px;
+    margin: 0px;
+    text-align: right;
+    background-color: skyblue;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer {
+  position:relative;
+  bottom: 0px;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+
+.logo{
+  position: absolute;
+  width: 86px;
+  height: 46px;
+  margin: 4px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+.register , .add_product{
+  margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 6%;
+}
+.center{
+  margin-left: 15%;
+}
+.inputbox {
+  display: block;
+  padding: 8px;
+  margin: 25px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.button{
+    margin-left: 24px;
+    padding: 8px;
+    width: 122px;
+    background: skyblue;
+    border: 1px solid;
+    
+}
+.button,.diesel-button-btn:hover{
+  background: rgb(154, 145, 145) ;
+  border: 2px solid skyblue;
+  color: rgb(250, 252, 253);
+}
+.diesel-button-btn1:hover{
+  background: rgb(154, 145, 145) ;
+  border: 2px solid skyblue;
+  color: rgb(250, 252, 253);
+}
+
+.diesel-button{
+  display: flex;
+  margin: 2%;
+}
+.diesel-button-btn{
+  flex:1;
+  padding: 1%;
+  margin: 1%;
+  background: #f50057;;
+    border: 1px solid;
+}
+.diesel-button-btn1{
+  flex:1;
+  padding: 1%;
+  margin: 1%;
+  background: rgb(59, 114, 222);
+    border: 1px solid;
+}
+.accountCard{
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:70%;
+  border-radius: 5px;
+}
+.accountCard:hover{
+  box-shadow: 0px 8px 16px 0px rgba(12, 11, 11, 0.2);
+}
+
+.flex{
+  display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0%;
+}
+.card{
+  width: 80%;
+  margin-left: 8%;
+  
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+}
+.accountbutton{
+  padding: 1%;
+  margin: 1%;
+  color: #fff;
+  background-color: #3f51b5;
+}
